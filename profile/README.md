@@ -1,32 +1,53 @@
 ## Zemaneh Yosef | זמני יוסף
 
-This repository is the main hub that links to the other repositories that can help you find zmanim according to Rabbi Ovadiah Yosef ZT"L.
+This orginization is the main hub that links to the other repositories that can help you find zmanim applications and websites according to Rabbi Ovadiah Yosef ZT"L.
 
-<b>Google Play Store and source code:</b>
+## App and Source Code Links
 
-<a href="https://play.google.com/store/apps/details?id=com.EJ.ROvadiahYosefCalendar&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img class="android" alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="250px"></a> <a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarApp"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
+<table>
+  <tr>
+    <td align="center" width="33%"><strong>Google Play Store and source code:</strong></td>
+    <td align="center" width="33%"><strong>App Store and source code:</strong></td>
+    <td align="center" width="33%"><strong>Website and source code:</strong></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://play.google.com/store/apps/details?id=com.EJ.ROvadiahYosefCalendar&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+        <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="200px">
+      </a>
+      <br>
+      <a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarApp">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://apps.apple.com/app/rabbi-ovadiah-yosef-calendar/id6448838987">
+        <img alt="Get it on the App Store" src="https://ci6.googleusercontent.com/proxy/HrtBTHlFE3VpRkzLfRwnYbJjCLtCpmKOIV__qk9k9mj7e7PSZF2X0L7mzR63nCIfqbnUujbn-dhiq-LwYUqdcpSLg_ItRhdEQJ0wP438309hcA=s0-d-e1-ft#https://static.licdn.com/aero-v1/sc/h/76yzkd0h5kiv27lrd4yaenylk" width="200px">
+      </a>
+      <br>
+      <a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarIOSApp">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://royzmanim.com/">
+        <img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="100px" alt="Website">
+      </a>
+      <br>
+      <a href="https://github.com/Elyahu41/royzmanimwebsite">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
+      </a>
+    </td>
+  </tr>
+</table>
 
-<b>App Store and source code:</b>
-
-<a href="https://apps.apple.com/app/rabbi-ovadiah-yosef-calendar/id6448838987"><img alt="Get it on the App Store" src="https://ci6.googleusercontent.com/proxy/HrtBTHlFE3VpRkzLfRwnYbJjCLtCpmKOIV__qk9k9mj7e7PSZF2X0L7mzR63nCIfqbnUujbn-dhiq-LwYUqdcpSLg_ItRhdEQJ0wP438309hcA=s0-d-e1-ft#https://static.licdn.com/aero-v1/sc/h/76yzkd0h5kiv27lrd4yaenylk" width="250px"></a><a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarIOSApp"> <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
-
-<b>Website (official) and source code:</b>
-
-<a href="https://royzmanim.com/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="124px"></a> <a href="https://github.com/Elyahu41/royzmanimwebsite"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
-
-<b>Website (unofficial) and source code:</b>
-
-<a href="https://elyahu41.github.io/RabbiOvadiahYosefCalendar/"><img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="124px"></a> <a href="https://github.com/Elyahu41/Elyahu41.github.io/tree/master/RabbiOvadiahYosefCalendar"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="62px"></a>
-
-The goal of this app is to recreate the "Luach HaMaor Ohr HaChaim" calendar that is widespread in Israel. This calendar is special because Rabbi Ovadiah Yosef ZT"L oversaw it's creation and used the calendar himself until he passed:
-
+The original goal was to recreate the "Luach HaMaor Ohr HaChaim" calendar that is widespread in Israel. That calendar is special because Rabbi Ovadiah Yosef ZT"L oversaw it's creation and used the calendar himself until he passed. However, the project has passed that goal is currently trying to surpass the original goal in any aspect:
+### Print out of the calendar:
 <img src="https://i.imgur.com/QqGAtTB.jpg" height="750">
 
-In order to create these apps, I needed an API that would give me the times for sunrise and sunset everyday (since all the other zmanim are based on these times). I was recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) Package, and that is the basis for all of these app's zmanim (time) calculations. For the website version, I used the [KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) Package. And for the IOS version, I used the [KosherCocoa](https://github.com/MosheBerman/KosherCocoa) Package.
+In order to create these applications, we needed an API that would give us the most accurate times for sunrise and sunset everyday (since all the other zmanim are based on these times). We were recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) Package, and that is the basis for all of the calculations. For the website, we used the [KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) Package. And for the IOS version, we used the [KosherSwift](https://github.com/Elyahu41/KosherSwift) Package.
 
-The app can display the zmanim/times in hebrew and english but is primarily made for english speakers.
-
-The only zman/time that could not be computed by the KosherJava API is the sunrise time that the Ohr HaChayim calendar uses. They explain in the calendar introduction that they take the sunrise times from a calendar called, "Luach Bechoray Yosef". That calendar calculates the time for sunrise by taking into account the geography of the land around that area and finding when the earliest time for sunrise is (based on the introduction to Chaitables.com). While not impossible, this would take a massive toll on a mobile phone's processor and memory, therefore, the app does not support it. However, I discovered that the creator of this calendar made a website [ChaiTables.com](http://chaitables.com) to help people use his algorithm for sunrise all over the world and create a 12 month table based on your input. I added the ability to download these times in the app with your own specific parameters. (I highly recommend that you see the introduction on chaitables.com.)
+The only zman/time that could not be computed by the KosherJava API is the sunrise time that the Ohr HaChaim calendar uses. They explain in the calendar introduction that they take the sunrise times from a calendar called, "Luach Bechoray Yosef". That calendar calculates the time for sunrise by taking into account the geography of the land around that area and finding when the earliest time for sunrise is (based on the introduction to Chaitables.com). While not impossible, this would take a massive toll on a mobile phone's processor and memory, therefore, the applications do not support it natively. However, we discovered that the creator of this calendar made a website [ChaiTables.com](http://chaitables.com) to help people use his algorithm for sunrise all over the world and create a 12 month table based on your input. I added the ability to download these times in the app with your own specific parameters. (It is highly recommended that you see the introduction on chaitables.com.)
 
 Main view of the zmanim:
 
