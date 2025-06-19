@@ -76,15 +76,15 @@ Burning Chametz - Biur Chametz:
 
 This is calculated as 5 zmaniyot/seasonal hours, according to the MG"A, after Alot HaShachar (Dawn) with elevation included.
 
-Latest time for Shma (MG"A):
+Latest time for Shema (MG"A):
 
 The Magen Avraham/Terumat HeDeshen calculates this time as 3 zmaniyot/seasonal hours after Alot HaShachar (Dawn). They calculate a zmaniyot/seasonal hour by taking the time between Alot HaShachar (Dawn) and Tzeit Hachocavim (Nightfall) of Rabbeinu Tam and dividing it into 12 equal parts.
 
-Latest time for Shma (GR\"A):
+Latest time for Shema (GR\"A):
 
 The GR"A calculates this time as 3 zmaniyot/seasonal hours after sunrise (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
 
-Brachot Shma:
+Berachot Shema:
 
 The GR"A calculates this time as 4 zmaniyot/seasonal hours after sunrise (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
 
@@ -92,7 +92,7 @@ Mid-Day - Chatzot:
 
 This time is calculated as 6 zmaniyot/seasonal hours after sunrise. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
 
-Earliest Mincha - Mincha Gedolah:
+Earliest Mincha - Mincha Gedola:
 
 This time is calculated as 30 regular minutes after Chatzot (Mid-Day). However, if the zmaniyot/seasonal minutes are longer, we use those minutes instead to be stringent. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute."
 
@@ -100,7 +100,7 @@ Mincha Ketana:
 
 This time is calculated as 9 and a half zmaniyot/seasonal hours after sunrise. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute.
 
-Plag HaMincha:
+Pelag HaMincha:
 
 This time is usually calculated as 10 and 3/4th zmaniyot/seasonal hours after sunrise, however, yalkut yosef writes to calculate it as 1 hour and 15 zmaniyot/seasonal minutes before tzeit. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute.
 
@@ -108,34 +108,31 @@ Candle Lighting:
 
 This time is calculated as 20 regular minutes before sunset (elevation included) by default. You can change this in the settings.
 
-Sunset - Shkia:
+Sunset - Sheqi'a:
 
 Halachic sunset is defined as the moment when the top edge of the sun disappears on the horizon while setting (elevation included).
 
-Nightfall - Tzeit Hacochavim:
+Nightfall - Tzet Hakokhavim:
 
 This time is calculated as 13 and a half zmaniyot/seasonal minutes after sunset (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute. NOTE: This time is very early in the winter and especially in the far north or south. This zman should NOT be used to decide when shabbat ends or any other serious matters without consolidating a rabbi first!
 
-Fast Ends - Tzeit Taanit:
+Fast Ends - Tzet Ta'anit:
 
 This time is displayed twice, the first time is calculated as 20 regular minutes after sunset (elevation included) and the second time is calculated as 30 minutes afterwards.
 
-Shabbat/Chag Ends - Tzeit Shabbat/Chag:
+Shabbat/Chag Ends - Tzet Shabbat/Chag:
 
-Note that there are many customs on when shabbat ends, by default, it is set to 40 regular minutes after sunset (elevation included), however, you can change the time in the settings. This time is calculated as 40 regular minutes after sunset (elevation included).
+The enterage of customs regarding when Shabbat ends makes this zeman customizable. By default, it is the result of sun's position 7.165 degrees below the horizon after sunset for locations outside Eretz Yisrael, with Eretz Yisrael fixing it at 30 minutes after sunset.
 
-Rabbeinu Tam:
+Rabbenu Tam:
 
-This time is calculated as 72 zmaniyot/seasonal minutes after sunset (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute in order to calculate 72 minutes. Another way of calculating this time is by calculating how many minutes are between sunrise and sunset. Take that number and divide it by 10, and then add the result to sunset.
+This time is calculated as 72 zemaniyot/seasonal minutes after sunset (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute in order to calculate 72 minutes. Another way of calculating this time is by calculating how many minutes are between sunrise and sunset. Take that number and divide it by 10, and then add the result to sunset.
 
 Midnight - Chatzot Layla:
 
-This time is calculated as 6 zmaniyot/seasonal hours after sunset. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. In this case, we use sunrise for the next day.
+This time is calculated as 6 zemaniyot/seasonal hours after sunset. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. In this case, we use sunrise for the next day.
 
-UPDATE: I have recently been in touch with a Rabbi by the name of Rabbi Lior Dahan Shlita, he is the Author of the "Amudei Horaah Mishna Berurah". He has also looked into zmanim and he has created his own "Amudei Horaah"
-Calendar. It is similar to the Ohr Hachaim calendar except the zmanim for alot and tzeit are skewed based on the degrees of the sun. To explain: If normally Alot is 72 zmaniyot minutes before sunrise, Rabbi Dahan holds that we need to find out how many minutes are between alot and sunrise on an equal day (equinox). To do this, we use degrees based on Netanya, Israel (since the gemara equates Iraq and Israel as the same area). Once you have those amounts of minutes, you make them zmaniyo based on sunrise to sunset. For example, alot in New York is around 81 zmaniyot minutes before sunrise. He bases these calculations off the Halacha Berurah (Siman 261, halacha 13). Therefore, with the Rabbi's help, I have added his zmanim to all the applications.
-
-I asked Rabbi Benizri Shlita, author of the Ohr HaChaim calendar, if Rabbi Ovadiah Yosef ZT"L would hold like the above Halacha Berurah and he told me that, in his opinion, Rabbi Ovadiah would disagree with this Halacha Berurah. Since it seems like an argument, I have left the applications by default like the Ohr HaChaim calendar, and the user's can change it to Amudei Horaah mode in the settings.
+UPDATE: I have recently been in touch with a Rabbi by the name of Rabbi Leeor Dahan Shlit"a, author of the "Amudeh Hora'ah Mishna Berura". He has also looked into zemanim and he has created his own "Amudeh Hora'ah" calendar. It is similar to the Ohr Hachaim calendar except the zmanim for alot and tzeit are skewed based on the degrees of the sun. To explain: If normally Dawn is 72 zemaniyot minutes before sunrise, Rabbi Dahan holds that we need to find out how many minutes are between alot and sunrise on an equal day (equinox). To do this, we measure the sun's position below the horizon in Israel for those times, and apply that degree on the equinox day in your location. The purpose of said math is to determine the new amount of seasonal minutes to fit these times for their new astronomical location. Once you have those amounts of minutes, you make them zmaniyo based on sunrise to sunset. For example, alot in New York is around 81 zmaniyot minutes before sunrise. He bases these calculations off the Halacha Berurah (Siman 261, halacha 13). Therefore, with the Rabbi's help & based on the approbation of R' Yitzchak Yosef, I have added his zemanim to all the applications.
 
 
 # Introduction to the calendar in Israel:
