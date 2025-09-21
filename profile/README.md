@@ -2,38 +2,51 @@
 
 This orginization is the main hub that links to the other repositories that can help you find zmanim applications and websites according to Rabbi Ovadiah Yosef ZT"L.
 
-## App and Source Code Links
+<p align="center">
+	<img src="https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/cc/4f/de/cc4fded5-598f-1f3a-eaa6-26405d119a93/AppIcon-0-0-1x_U007epad-0-11-0-85-220.png/217x0w.webp" width="200px" alt="logo">
+</p>
 
-<table>
+<table align="center">
   <tr>
-    <td align="center" width="33%"><strong>Google Play Store and source code:</strong></td>
-    <td align="center" width="33%"><strong>App Store and source code:</strong></td>
-    <td align="center" width="33%"><strong>Website and source code:</strong></td>
+    <td align="center" width="33%"><strong>Google Play Store</strong></td>
+    <td align="center" width="33%"><strong>App Store</strong></td>
+    <td align="center" width="33%"><strong>Website</strong></td>
   </tr>
   <tr>
     <td align="center" width="33%">
       <a href="https://play.google.com/store/apps/details?id=com.EJ.ROvadiahYosefCalendar&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
         <img alt="Get it on Google Play" src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png" width="200px">
       </a>
-      <br>
-      <a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarApp">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
-      </a>
     </td>
     <td align="center" width="33%">
       <a href="https://apps.apple.com/app/rabbi-ovadiah-yosef-calendar/id6448838987">
         <img alt="Get it on the App Store" src="https://ci6.googleusercontent.com/proxy/HrtBTHlFE3VpRkzLfRwnYbJjCLtCpmKOIV__qk9k9mj7e7PSZF2X0L7mzR63nCIfqbnUujbn-dhiq-LwYUqdcpSLg_ItRhdEQJ0wP438309hcA=s0-d-e1-ft#https://static.licdn.com/aero-v1/sc/h/76yzkd0h5kiv27lrd4yaenylk" width="200px">
-      </a>
-      <br>
-      <a href="https://github.com/Elyahu41/RabbiOvadiahYosefCalendarIOSApp">
-        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
       </a>
     </td>
     <td align="center" width="33%">
       <a href="https://royzmanim.com/">
         <img src="https://cdn-icons-png.flaticon.com/512/5602/5602732.png" width="100px" alt="Website">
       </a>
-      <br>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center" width="33%"><strong>Source Code</strong></td>
+    <td align="center" width="33%"><strong>Source Code</strong></td>
+    <td align="center" width="33%"><strong>Source Code</strong></td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <a href="https://github.com/Zemaneh-Yosef/RabbiOvadiahYosefCalendarAndroidApp">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
+      </a>
+    </td>
+    <td align="center" width="33%">
+      <a href="https://github.com/Zemaneh-Yosef/RabbiOvadiahYosefCalendarIOSApp">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
+      </a>
+    </td>
+    <td align="center" width="33%">
       <a href="https://github.com/Zemaneh-Yosef/royzmanimwebsite">
         <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="50px" alt="GitHub">
       </a>
@@ -41,103 +54,42 @@ This orginization is the main hub that links to the other repositories that can 
   </tr>
 </table>
 
-The original goal was to recreate the "Luach HaMaor Ohr HaChaim" calendar that is widespread in Israel. That calendar is special because Rabbi Ovadiah Yosef ZT"L oversaw it's creation and used the calendar himself until he passed. However, the project has passed that goal is currently trying to surpass the original goal in any aspect:
-### Print out of the calendar:
-<img src="https://i.imgur.com/QqGAtTB.jpg" height="750">
+# Goal of the project:
+The goal original of this project was to recreate the "Luach HaMaor Ohr HaChaim" calendar that is widespread in Israel. This calendar is special because Rabbi Ovadiah Yosef ZT"L oversaw it's creation and used the calendar himself until he passed. It is considered to be the most accurate calendar for people who want to follow Rabbi Ovadia Yosef's practices:
 
-In order to create these applications, we needed an API that would give us the most accurate times for sunrise and sunset everyday (since all the other zmanim are based on these times). We were recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) Package, and that is the basis for all of the calculations. For the website, we used the [KosherZmanim](https://github.com/BehindTheMath/KosherZmanim) Package. And for the IOS version, we used the [KosherSwift](https://github.com/Elyahu41/KosherSwift) Package.
+<img src="https://i.imgur.com/QqGAtTB.jpg" height="750" alt="Picture of Ohr HaChaim calendar">
 
-The only zman/time that could not be computed by the KosherJava API is the sunrise time that the Ohr HaChaim calendar uses. They explain in the calendar introduction that they take the sunrise times from a calendar called, "Luach Bechoray Yosef". That calendar calculates the time for sunrise by taking into account the geography of the land around that area and finding when the earliest time for sunrise is (based on the introduction to Chaitables.com). While not impossible, this would take a massive toll on a mobile phone's processor and memory, therefore, the applications do not support it natively. However, we discovered that the creator of this calendar made a website [ChaiTables.com](http://chaitables.com) to help people use his algorithm for sunrise all over the world and create a 12 month table based on your input. I added the ability to download these times in the app with your own specific parameters. (It is highly recommended that you see the introduction on chaitables.com.)
+In order to recreate the calendar, we needed use an API that would give the times for sunrise and sunset everyday (since all the other zemanim (times) are based on sunrise/sunset). I was recommended the well known [KosherJava](https://github.com/KosherJava/zmanim) package for it's accuracy and transparency, and that is the basis for all of the app's calculations.
 
-Main view of the zmanim:
+The app was originally made for primarily english speakers, however, it has been localized for both english and hebrew speakers.
 
-![alt text](https://i.imgur.com/F9M29Zt.png)
+The only zeman that could not be computed by the KosherJava API is the sunrise time that the Ohr HaChaim calendar uses. They explain in the calendar introduction that they take the sunrise times from a calendar called, "Luach Bechoray Yosef". That calendar calculates the time for sunrise by taking into account the geography of the land around that area and finding when is the first time the sun is seen in that area (based on the introduction to Chaitables.com). While not impossible, this would take a massive toll on a mobile phone's processor and memory, therefore, the app does not support it. However, I discovered that the creator of this calendar made a website [ChaiTables.com](http://chaitables.com) to help people use his algorithm for sunrise/sunset all over the world and create a 12 month table based on your input. I added the ability to download these times in the app with your own specific parameters. (It is highly recommended that you see the introduction on chaitables.com.)
 
-![alt text](https://play-lh.googleusercontent.com/46VfUTuZLlA_ogFYMP0oLUbtgQtsj-D3lHNDnS5LvqVwwgXr4Qh0p8d0ZiJg-z69IEY=w2560-h1440-rw)
+After the Ohr HaChaim calendar was implemented and fully functional, we implemented Rabbi Leeor Dahan's calendar for areas outside of Israel. The Ohr HaChaim calendar was made for Israel and it needed a few adjustments to be applicable for outside of Israel. We confirmed this with both of Rabbi Ovadia Yosef's sons (Rabbi Yitzhak Yosef and Rabbi David Yosef).
 
-# Explanation of how the zmanim are calculated:
-Dawn - Alot HaShachar:
+Rabbi Meir Gavriel Elbaz and Rabbi Leeor Dahan themselves have given [haskamot](https://royzmanim.com/) for this project, and with their help we were able to even receive a [haskama](https://royzmanim.com/assets/haskamah-rishon-letzion.pdf) from Rabbi Yitzhak Yosef.
 
-This time is calculated as 72 zmaniyot/seasonal minutes (according to the GR"A) before sunrise. Both sunrise and sunset have elevation included.
+# Android App Screenshots:
+| <img src="https://play-lh.googleusercontent.com/zVHLQfLFEFi042B5fs8aospA9rEHQYI9lhEpBDl5WJtO7DXpWf5KHOyJwGcJt6FL6g"> | <img src="https://play-lh.googleusercontent.com/qqzs-vMfkBYOb7MhE8GSSDrgxnT3SHPnvOUVZ5-hpmPKNRmGDlKk_ZfWgFPRjoyS9Zk"> | <img src="https://play-lh.googleusercontent.com/M2rFetNy9kZJoVpi6EV0w07TagYgV7pdCaSH-d46p_tjjaydrbrjCA-8ytfBJ57BSzI"> | <img src="https://play-lh.googleusercontent.com/M5ngIENjzFAu3Jr_6uPMPR7ZL5axZa7wXjXj-l3T2UR1NwWHnDhgK5cwymG92_dH9g"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
-Misheyakir - Earliest Talit/Tefilin:
+| <img src="https://play-lh.googleusercontent.com/x9-dPIKcVofd0Bzd1Pncp7YTKItC9dPtP0ZU8swd3Q-ee2ySTkyiscXTssF_eNPfgnk"> | <img src="https://play-lh.googleusercontent.com/4_ieNYmeCYv75lGsuOg95fT5-1v7vK8zuvSbOV78MtMWWKLS-PIDS2dTT9MCTz4vX4FP"> | <img src="https://play-lh.googleusercontent.com/ZiT9dliscrbOqqwxdpzivXE77Hpt-CMpgUcT-8x1MVnDPZp6jVOTpdes5Dgg9l4Okg"> | <img src="https://play-lh.googleusercontent.com/goFEBByE3neELxuURq_G7LtO_QkuQCs8WPnu5Ltx57Elx62k5FgCWqWDuIfobqagMs2u"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
-This time is calculated as 6 zmaniyot/seasonal minutes (according to the GR\"A) after Alot HaShachar (Dawn).
+# iOS App Screenshots:
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/75/f7/24/75f72459-c2d9-b0e0-4ef4-202a3c2594d2/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-27_at_16.53.24.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/dd/06/e3/dd06e3e5-06bd-4937-a157-83013e9e3483/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.26.28.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/8f/c5/e6/8fc5e6e6-cc98-1896-adf0-0e18c7e44716/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.28.06.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/5c/ce/7c/5cce7c64-3281-a635-6136-c84814c9e6bd/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.28.49.png/230x0w.webp"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
-Sunrise - HaNetz:
+| <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/cc/1d/b7/cc1db7e1-d73a-f049-b13e-ea72e1cac2e3/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.29.48.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/3f/92/84/3f9284fb-d69a-81cb-25fd-c9ef80c28225/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.30.54.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/ab/74/39/ab7439db-2a35-e5dc-946c-2f69b3025331/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.31.55.png/230x0w.webp"> | <img src="https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/8d/aa/62/8daa62a8-15cf-0e85-b922-2f5f780386bf/Simulator_Screenshot_-_iPhone_16_Pro_-_2025-05-25_at_03.32.44.png/230x0w.webp"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------ | ------------------------------------------- |
 
-Explained above how the Luach B'Choray Yosef calculates the time for sunrise, however, if the user does not download the times from the website, the app defaults to Mishor/Sea Level Sunrise provided by the KosherJava API.
+# Explanation of how the zemanim are calculated:
+- For an in-depth explanation on each specific time, please look at the descriptions for each individual time, found in the app-itself.
+- For an overall explanation, please visit our organization's ReadME on GitHub.
+- For an explanation on the differences between outside of Israel and inside of Israel or whether or not to use elevation, please visit our [FAQ](https://royzmanim.com/FAQ)
 
-Eating Chametz - Achilat Chametz:
+# Introduction and haskama to the calendar in Israel:
 
-This is calculated as 4 zmaniyot/seasonal hours, according to the Magen Avraham, after Alot HaShachar (Dawn) with elevation included.
+| <img src="https://royzmanim.com/assets/images/sources/OHhaskama.png" height="250" alt="haskama"> | <img src="https://royzmanim.com/assets/images/sources/intro1.png" height="250" alt="intro 1"> | <img src="https://royzmanim.com/assets/images/sources/intro2.png" height="250" alt="intro 2"> | <img src="https://royzmanim.com/assets/images/sources/intro3.png" height="250" alt="intro 3"> |
+| ---------------------------------------------- | -------------------------------------------- | ------------------------------------------- | ------------------------------------------- |
 
-Burning Chametz - Biur Chametz:
-
-This is calculated as 5 zmaniyot/seasonal hours, according to the MG"A, after Alot HaShachar (Dawn) with elevation included.
-
-Latest time for Shema (MG"A):
-
-The Magen Avraham/Terumat HeDeshen calculates this time as 3 zmaniyot/seasonal hours after Alot HaShachar (Dawn). They calculate a zmaniyot/seasonal hour by taking the time between Alot HaShachar (Dawn) and Tzeit Hachocavim (Nightfall) of Rabbeinu Tam and dividing it into 12 equal parts.
-
-Latest time for Shema (GR\"A):
-
-The GR"A calculates this time as 3 zmaniyot/seasonal hours after sunrise (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
-
-Berachot Shema:
-
-The GR"A calculates this time as 4 zmaniyot/seasonal hours after sunrise (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
-
-Mid-Day - Chatzot:
-
-This time is calculated as 6 zmaniyot/seasonal hours after sunrise. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts.
-
-Earliest Mincha - Mincha Gedola:
-
-This time is calculated as 30 regular minutes after Chatzot (Mid-Day). However, if the zmaniyot/seasonal minutes are longer, we use those minutes instead to be stringent. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute."
-
-Mincha Ketana:
-
-This time is calculated as 9 and a half zmaniyot/seasonal hours after sunrise. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute.
-
-Pelag HaMincha:
-
-This time is usually calculated as 10 and 3/4th zmaniyot/seasonal hours after sunrise, however, yalkut yosef writes to calculate it as 1 hour and 15 zmaniyot/seasonal minutes before tzeit. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute.
-
-Candle Lighting:
-
-This time is calculated as 20 regular minutes before sunset (elevation included) by default. You can change this in the settings.
-
-Sunset - Sheqi'a:
-
-Halachic sunset is defined as the moment when the top edge of the sun disappears on the horizon while setting (elevation included).
-
-Nightfall - Tzet Hakokhavim:
-
-This time is calculated as 13 and a half zmaniyot/seasonal minutes after sunset (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute. NOTE: This time is very early in the winter and especially in the far north or south. This zman should NOT be used to decide when shabbat ends or any other serious matters without consolidating a rabbi first!
-
-Fast Ends - Tzet Ta'anit:
-
-This time is displayed twice, the first time is calculated as 20 regular minutes after sunset (elevation included) and the second time is calculated as 30 minutes afterwards.
-
-Shabbat/Chag Ends - Tzet Shabbat/Chag:
-
-The enterage of customs regarding when Shabbat ends makes this zeman customizable. By default, it is the result of sun's position 7.165 degrees below the horizon after sunset for locations outside Eretz Yisrael, with Eretz Yisrael fixing it at 30 minutes after sunset.
-
-Rabbenu Tam:
-
-This time is calculated as 72 zemaniyot/seasonal minutes after sunset (elevation included). The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. Then we divide one of those 12 parts into 60 to get a zmaniyot/seasonal minute in order to calculate 72 minutes. Another way of calculating this time is by calculating how many minutes are between sunrise and sunset. Take that number and divide it by 10, and then add the result to sunset.
-
-Midnight - Chatzot Layla:
-
-This time is calculated as 6 zemaniyot/seasonal hours after sunset. The GR"A calculates a zmaniyot/seasonal hour by taking the time between sunrise and sunset (elevation included) and divides it into 12 equal parts. In this case, we use sunrise for the next day.
-
-UPDATE: I have recently been in touch with a Rabbi by the name of Rabbi Leeor Dahan Shlit"a, author of the "Amudeh Hora'ah Mishna Berura". He has also looked into zemanim and he has created his own "Amudeh Hora'ah" calendar. It is similar to the Ohr Hachaim calendar except the zmanim for alot and tzeit are skewed based on the degrees of the sun. To explain: If normally Dawn is 72 zemaniyot minutes before sunrise, Rabbi Dahan holds that we need to find out how many minutes are between alot and sunrise on an equal day (equinox). To do this, we measure the sun's position below the horizon in Israel for those times, and apply that degree on the equinox day in your location. The purpose of said math is to determine the new amount of seasonal minutes to fit these times for their new astronomical location. Once you have those amounts of minutes, you make them zmaniyo based on sunrise to sunset. For example, alot in New York is around 81 zmaniyot minutes before sunrise. He bases these calculations off the Halacha Berurah (Siman 261, halacha 13). Therefore, with the Rabbi's help & based on the approbation of R' Yitzchak Yosef, I have added his zemanim to all the applications.
-
-
-# Introduction to the calendar in Israel:
-
-<img src="http://www.zmanim-diffusion.com/images/1.jpg" height="650">
-<img src="https://i.imgur.com/udfwy3R.jpg" height="650">
-<img src="https://i.imgur.com/ureV4p4.jpg" height="650">
-<img src="https://i.imgur.com/HXEzXvr.jpg" height="650">
